@@ -1,8 +1,8 @@
 # Checklist da rubrica - Projeto Final T4
 
-Fontes: enunciado oficial T4 (7 páginas, atualizado em 17/10/2026) e anotações do Departamento de Engenharia (1 página), lidos dos PDFs fornecidos por Fabiano.
+Fontes: enunciado oficial T4 (7 páginas, atualizado em 17/10/2026) e anotações do Departamento de Engenharia (1 página), materiais oficiais da atividade.
 
-Prazo atualizado informado por Fabiano: **16/11/2026 às 22h, horário de Brasília**. O enunciado contém a data antiga de 03/11/2026. A seção 4 define sete fases; a menção a seis fases na seção 5.1 é uma inconsistência editorial. Este projeto segue as sete fases.
+Prazo de submissão atualizado: **16/11/2026 às 22h, horário de Brasília**. O enunciado contém a data antiga de 03/11/2026. A seção 4 define sete fases; a menção a seis fases na seção 5.1 é uma inconsistência editorial. Este projeto segue as sete fases.
 
 Os itens abaixo acompanham a entrega completa. As sete fases técnicas foram implementadas e executadas no Bloco 02.
 
@@ -51,7 +51,7 @@ Os itens abaixo acompanham a entrega completa. As sete fases técnicas foram imp
 - [x] Calcular e exibir a acurácia no teste do melhor KNN e da melhor árvore.
 - [x] Comparar numericamente e justificar o modelo recomendado para a empresa.
 
-## Cuidados com os dados e decisões pendentes
+## Cuidados com os dados e decisões técnicas
 
 - [x] Preservar o CSV original em `data/raw/manutencao_preditiva.csv`; efetuar transformações em memória.
 - [x] Excluir de X as colunas históricas `falha_twf`, `falha_hdf`, `falha_pwf`, `falha_osf` e `falha_rnf`, conforme as anotações da Engenharia: elas informam causas da quebra e provocam vazamento de informação.
@@ -68,14 +68,14 @@ Os itens abaixo acompanham a entrega completa. As sete fases técnicas foram imp
 - [x] Acompanhar transformações, limpezas e treinamentos de textos que justifiquem as decisões.
 - [x] Criar `requirements.txt` com as bibliotecas utilizadas e respectivas versões.
 - [x] Utilizar caminhos relativos para os dados, sem diretórios pessoais absolutos no notebook.
-- [ ] Documentar no README: nome, problema, escopo, técnicas e tecnologias, execução e melhorias possíveis.
+- [x] Documentar no README: nome, problema, escopo, técnicas e tecnologias, execução e melhorias possíveis.
 - [x] Verificar execução integral do notebook em ambiente configurado.
 
-## GitHub e submissão - operações sob responsabilidade de Fabiano
+## GitHub e submissão
 
 - [ ] Manter repositório público no GitHub.
-- [ ] Usar `develop` para integração e feature branches originadas nela para cada tarefa.
-- [ ] Fazer commits pequenos com mensagens claras, sucintas e diretas.
+- [x] Usar `develop` para integração e feature branches originadas nela para cada tarefa. A documentação parte de `origin/develop`, após a integração do Bloco 02 pelo PR #3.
+- [x] Fazer commits pequenos com mensagens claras, sucintas e diretas. Histórico das etapas de estrutura, preparação e modelagem verificado.
 - [ ] Preservar branches após os pull requests e integrar o resultado final em `main`.
 - [ ] Submeter no AVA, na tarefa indicada no enunciado, os links do repositório e do vídeo.
 - [ ] Respeitar o prazo atualizado e não alterar o projeto após a entrega até receber a nota; o PDF considera a última atualização do repositório como data final.
@@ -108,3 +108,13 @@ Os itens abaixo acompanham a entrega completa. As sete fases técnicas foram imp
 | Total | 10,0 |
 
 O projeto representa 60% da avaliação do módulo. A rubrica remete ao item 4.3 para README, mas a seção correspondente no documento é 5.2.
+
+## Documentação executiva e fechamento
+
+- [x] Elaborar README com contexto, metodologia, resultados, limitações e reprodução.
+- [x] Exportar três gráficos a partir das evidências do notebook, com valores conferidos.
+- [ ] Revisar e versionar a documentação em `feature/documentacao-executiva`.
+- [ ] Integrar a documentação em `develop` e consolidar a entrega em `main`.
+- [ ] Conferir acesso público ao repositório e ao vídeo após a publicação final.
+
+Os itens oficiais de vídeo permanecem pendentes até a gravação e conferência do material. O código, as saídas e os metadados de execução do notebook foram preservados na revisão documental.
