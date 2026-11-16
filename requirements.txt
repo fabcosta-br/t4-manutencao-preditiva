@@ -1,4 +1,4 @@
-# Ambiente Python 3.12; versões verificadas na execução do notebook.
+# Ambiente Python 3.12; versões verificadas na execução integral do notebook.
 anyio==4.16.0
 argon2-cffi==25.1.0
 argon2-cffi-bindings==26.2.0
@@ -27,6 +27,7 @@ h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
 idna==3.20
+imbalanced-learn==0.14.2
 ipykernel==7.4.0
 ipython==9.18.1
 ipython_pygments_lexers==1.1.1
@@ -90,6 +91,7 @@ scipy==1.18.1
 seaborn==0.13.2
 Send2Trash==2.2.0
 six==1.17.0
+sklearn-compat==0.1.6
 soupsieve==4.1.1
 stack-data==0.6.3
 terminado==0.18.1
